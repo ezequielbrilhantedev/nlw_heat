@@ -4,11 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --exit-child src/app.ts"
+    "dev": "ts-node-dev --exit-child src/server.ts"
   },
   "dependencies": {
+    "-": "^0.0.1",
     "@prisma/client": "^3.3.0",
+    "@types/cors": "^2.8.12",
+    "D": "^1.0.0",
     "axios": "^0.23.0",
+    "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
